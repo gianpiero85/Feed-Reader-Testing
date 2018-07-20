@@ -36,7 +36,7 @@ $(function() {
         //URL has to be define / URL debe estar definida
         expect(feed.url).toBeDefined();
         //URL has to have a value / URL debe tener un valor
-        expect(feed.length).not.toBe(0);
+        expect(feed.url.length).not.toBe(0);
       });
     });
 
@@ -123,5 +123,4 @@ $(function() {
       expect($('.feed').html()).not.toBe(initFeed);
     });
   });
-
 }());
