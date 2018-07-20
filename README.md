@@ -11,7 +11,7 @@ try it https://gianpiero85.github.io/Feed-Reader-Testing/
 
 # How I completed this project?
 
-1.  I wrote rite a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
+1. I wrote a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
 2. I wrote a test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty.
 3. I wrote a new test suite named `"The menu"`.
 4. I Wrote a test that ensures the menu element is hidden by default. You'll have to analyze the HTML and the CSS to determine how we're performing the hiding/showing of the menu element.
