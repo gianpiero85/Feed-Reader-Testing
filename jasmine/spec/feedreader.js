@@ -123,5 +123,4 @@ $(function() {
       expect($('.feed').html()).not.toBe(initFeed);
     });
   });
-
 }());
